@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnCSS - Modern Web Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="logo-icon">L</span>
+        <span class="logo-text">LearnCSS</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="section-principal" id="home">
+      <div class="content-left">
+        <h1>Learn Modern Web Design</h1>
+        <p>
+          Master HTML, CSS, and responsive design with our comprehensive
+          educational platform. Build beautiful, functional websites from
+          scratch using semantic markup and modern CSS techniques.
+        </p>
+        <button class="btn-primary">Get Started</button>
+      </div>
+
+      <div class="content-right">
+        <img
+          src="Imagens/img-principal.png"
+          alt="Learn Code Banner"
+          class="img-principal"
+        />
+      </div>
+    </main>
+
+    <section class="features-section" id="services">
+      <div class="section-header">
+        <h2>What You'll Learn</h2>
+        <p>
+          Our comprehensive curriculum covers all essential web development
+          skills
+        </p>
+      </div>
+
+      <div class="cards-container">
+        <div class="card">
+          <div class="icon-box icon-blue">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              width="24"
+              height="24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 18"
+              />
+            </svg>
+          </div>
+          <h3>HTML Fundamentals</h3>
+          <p class="description">
+            Build solid foundations with semantic HTML structure and
+            accessibility best practices.
+          </p>
+          <ul class="feature-list">
+            <li class="card-html">Semantic elements</li>
+            <li class="card-html">Forms and validation</li>
+            <li class="card-html">Accessibility (ARIA)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="icon-box icon-green">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              width="24"
+              height="24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"
+              />
+            </svg>
+          </div>
+          <h3>Modern CSS</h3>
+          <p class="description">
+            Master layout systems, animations, and responsive design techniques.
+          </p>
+          <ul class="feature-list">
+            <li class="card-css">Flexbox & Grid</li>
+            <li class="card-css">Animations & transitions</li>
+            <li class="card-css">Custom properties</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <div class="icon-box icon-purple">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              width="24"
+              height="24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M10.5 19.5h3m-6.75 2.25h10.5a2.25 2.25 0 002.25-2.25v-15a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 4.5v15a2.25 2.25 0 002.25 2.25z"
+              />
+            </svg>
+          </div>
+          <h3>Responsive Design</h3>
+          <p class="description">
+            Create websites that work beautifully on all devices and screen
+            sizes.
+          </p>
+          <ul class="feature-list">
+            <li class="card-desing">Mobile-first approach</li>
+            <li class="card-desing">Media queries</li>
+            <li class="card-desing">Responsive images</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+      <div class="section-header">
+        <h2>Choose Your Plan</h2>
+        <p>Flexible pricing options for every learning journey</p>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th style="width: 25%">Plan</th>
+              <th style="width: 40%">Features</th>
+              <th style="width: 15%">Price</th>
+              <th style="width: 20%">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="plan-name">Basic</div>
+                <div class="plan-sub">For beginners</div>
+              </td>
+              <td class="features-text">HTML & CSS Basics, 10 Projects</td>
+              <td>
+                <div class="price">$9</div>
+                <div class="period">per month</div>
+              </td>
+              <td>
+                <button class="btn-outline">Select Plan</button>
+              </td>
+            </tr>
+
+            <tr class="row-highlight">
+              <td>
+                <div class="plan-name">
+                  Pro <span class="badge">Popular</span>
+                </div>
+                <div class="plan-sub">Most popular</div>
+              </td>
+              <td class="features-text">
+                Everything + Advanced CSS, 50 Projects
+              </td>
+              <td>
+                <div class="price">$29</div>
+                <div class="period">per month</div>
+              </td>
+              <td>
+                <button class="btn-solid">Select Plan</button>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <div class="plan-name">Enterprise</div>
+                <div class="plan-sub">For teams</div>
+              </td>
+              <td class="features-text">All features + Team collaboration</td>
+              <td>
+                <div class="price">$99</div>
+                <div class="period">per month</div>
+              </td>
+              <td>
+                <button class="btn-outline">Select Plan</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="testimonials-section">
+      <div class="section-header">
+        <h2>Student Success Stories</h2>
+        <p>Hear from our community of learners</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="card-header">
+            <div class="avatar avatar-blue">SJ</div>
+            <div class="user-info">
+              <h4>Sarah Johnson</h4>
+              <span>Frontend Developer</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="24"
+              height="24"
+              viewBox="0 0 475.082 475.081"
+              style="enable-background: new 0 0 475.082 475.081"
+              xml:space="preserve"
+              class="quote-icon icon-blue-text"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M164.45,219.27h-63.954c-7.614,0-14.087-2.664-19.417-7.994c-5.327-5.33-7.994-11.801-7.994-19.417v-9.132
+			c0-20.177,7.139-37.401,21.416-51.678c14.276-14.272,31.503-21.411,51.678-21.411h18.271c4.948,0,9.229-1.809,12.847-5.424
+			c3.616-3.617,5.424-7.898,5.424-12.847V54.819c0-4.948-1.809-9.233-5.424-12.85c-3.617-3.612-7.898-5.424-12.847-5.424h-18.271
+			c-19.797,0-38.684,3.858-56.673,11.563c-17.987,7.71-33.545,18.132-46.68,31.267c-13.134,13.129-23.553,28.688-31.262,46.677
+			C3.855,144.039,0,162.931,0,182.726v200.991c0,15.235,5.327,28.171,15.986,38.834c10.66,10.657,23.606,15.985,38.832,15.985
+			h109.639c15.225,0,28.167-5.328,38.828-15.985c10.657-10.663,15.987-23.599,15.987-38.834V274.088
+			c0-15.232-5.33-28.168-15.994-38.832C192.622,224.6,179.675,219.27,164.45,219.27z"
+                  ></path>
+                  <path
+                    d="M459.103,235.256c-10.656-10.656-23.599-15.986-38.828-15.986h-63.953c-7.61,0-14.089-2.664-19.41-7.994
+			c-5.332-5.33-7.994-11.801-7.994-19.417v-9.132c0-20.177,7.139-37.401,21.409-51.678c14.271-14.272,31.497-21.411,51.682-21.411
+			h18.267c4.949,0,9.233-1.809,12.848-5.424c3.613-3.617,5.428-7.898,5.428-12.847V54.819c0-4.948-1.814-9.233-5.428-12.85
+			c-3.614-3.612-7.898-5.424-12.848-5.424h-18.267c-19.808,0-38.691,3.858-56.685,11.563c-17.984,7.71-33.537,18.132-46.672,31.267
+			c-13.135,13.129-23.559,28.688-31.265,46.677c-7.707,17.987-11.567,36.879-11.567,56.674v200.991
+			c0,15.235,5.332,28.171,15.988,38.834c10.657,10.657,23.6,15.985,38.828,15.985h109.633c15.229,0,28.171-5.328,38.827-15.985
+			c10.664-10.663,15.985-23.599,15.985-38.834V274.088C475.082,258.855,469.76,245.92,459.103,235.256z"
+                  ></path>
+            </svg>
+            <p>
+              This course transformed my understanding of web development. The
+              practical approach and clear explanations made complex concepts
+              easy to grasp. Highly recommended!
+            </p>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="card-header">
+            <div class="avatar avatar-green">MC</div>
+            <div class="user-info">
+              <h4>Michael Chen</h4>
+              <span>UX Designer</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              width="24"
+              height="24"
+              viewBox="0 0 475.082 475.081"
+              style="enable-background: new 0 0 475.082 475.081"
+              xml:space="preserve"
+              class="quote-icon icon-green-text"
+            >
+              <g>
+                <g>
+                  <path
+                    d="M164.45,219.27h-63.954c-7.614,0-14.087-2.664-19.417-7.994c-5.327-5.33-7.994-11.801-7.994-19.417v-9.132
+			c0-20.177,7.139-37.401,21.416-51.678c14.276-14.272,31.503-21.411,51.678-21.411h18.271c4.948,0,9.229-1.809,12.847-5.424
+			c3.616-3.617,5.424-7.898,5.424-12.847V54.819c0-4.948-1.809-9.233-5.424-12.85c-3.617-3.612-7.898-5.424-12.847-5.424h-18.271
+			c-19.797,0-38.684,3.858-56.673,11.563c-17.987,7.71-33.545,18.132-46.68,31.267c-13.134,13.129-23.553,28.688-31.262,46.677
+			C3.855,144.039,0,162.931,0,182.726v200.991c0,15.235,5.327,28.171,15.986,38.834c10.66,10.657,23.606,15.985,38.832,15.985
+			h109.639c15.225,0,28.167-5.328,38.828-15.985c10.657-10.663,15.987-23.599,15.987-38.834V274.088
+			c0-15.232-5.33-28.168-15.994-38.832C192.622,224.6,179.675,219.27,164.45,219.27z"
+                  ></path>
+                  <path
+                    d="M459.103,235.256c-10.656-10.656-23.599-15.986-38.828-15.986h-63.953c-7.61,0-14.089-2.664-19.41-7.994
+			c-5.332-5.33-7.994-11.801-7.994-19.417v-9.132c0-20.177,7.139-37.401,21.409-51.678c14.271-14.272,31.497-21.411,51.682-21.411
+			h18.267c4.949,0,9.233-1.809,12.848-5.424c3.613-3.617,5.428-7.898,5.428-12.847V54.819c0-4.948-1.814-9.233-5.428-12.85
+			c-3.614-3.612-7.898-5.424-12.848-5.424h-18.267c-19.808,0-38.691,3.858-56.685,11.563c-17.984,7.71-33.537,18.132-46.672,31.267
+			c-13.135,13.129-23.559,28.688-31.265,46.677c-7.707,17.987-11.567,36.879-11.567,56.674v200.991
+			c0,15.235,5.332,28.171,15.988,38.834c10.657,10.657,23.6,15.985,38.828,15.985h109.633c15.229,0,28.171-5.328,38.827-15.985
+			c10.664-10.663,15.985-23.599,15.985-38.834V274.088C475.082,258.855,469.76,245.92,459.103,235.256z"
+                  ></path>
+            </svg>
+            <p>
+              As a designer transitioning to code, this platform bridged the gap
+              perfectly. The responsive design modules were particularly
+              valuable for my career growth.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-header">
+        <h2>Get In Touch</h2>
+        <p>Have questions? We'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-card">
+        <form action="#">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea
+              id="message"
+              rows="5"
+              placeholder="Tell us what you'd like to learn..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <div class="copyright">&copy; 2026 LearnCSS. All rights reserved.</div>
+
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Twitter</a>
+          <a href="#">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
