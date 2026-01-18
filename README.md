@@ -40,16 +40,5 @@ Durante o desenvolvimento, foram aplicados diversos conceitos fundamentais e ava
 
 ---
 
-🚀 Como Executar o Projeto
-
-Clone este repositório:
-git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
-
-Navegue até a pasta do projeto.
-
-Abra o arquivo index.html no seu navegador de preferência.
-
----
-
 ✒️ Autor
 Desenvolvido por Bruna Lais Lindner durante a formação da GrowDev.
