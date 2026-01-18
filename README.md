@@ -40,5 +40,4 @@ Durante o desenvolvimento, foram aplicados diversos conceitos fundamentais e ava
 
 ---
 
-##✒️ Autor
 Desenvolvido por Bruna Lais Lindner durante a formação da GrowDev.
